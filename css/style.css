@@ -1,0 +1,313 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,600;0,700;1,100;1,400&family=Roboto:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	line-height: 1;
+	font-family: Roboto;
+	color: #4B4B4B;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block {}
+
+.content {
+	max-width: 1020px;
+	padding: 100px 87px 0 87px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+.supertitle {}
+
+.labeL {}
+
+.WhO {}
+
+.nemo {}
+
+.text {}
+
+.img-text {}
+
+/* 
+.main {
+
+}
+
+.block {
+	max-width: 583px;
+	margin-bottom: 36px;
+}
+
+.labeL {
+	float: left;
+}
+
+.supertitle {
+	display: inline-block;
+	max-width: 436px;
+	height: 17px;
+	margin-bottom: 33px;
+}
+
+.WhO {
+	display: inline-block;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+}
+
+.nemo {
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 42px;
+	color: #02133C;
+}
+
+
+.img-text {
+	max-width: 846px;
+	outline: 1px solid black;
+	margin-bottom: -120px;
+}
+
+.text {
+	display: inline-block;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin: 13px 0 60px 0;
+} */
+
+
+
+
+/*
+border
+Универсальное свойство border позволяет одновременно 
+установить толщину, 
+стиль и цвет границы вокруг элемента.
+border: 1px solid #000; (размер стиль цвет)
+Основные стили -solid dotted dashed double
+
+Синтаксис общего свойства:
+border: толщина_линии стиль_линии цвет_линии
+
+*/
+/*
+outline
+Универсальное свойство, одновременно устанавливающее цвет, 
+стиль и толщину внешней границы на всех четырех сторонах элемента. 
+В отличие от линии, задаваемой через border, свойство outline 
+не влияет на положение блока и его ширину. 
+Также нельзя задать параметры линии на отдельных сторонах элемента, 
+outline применяется сразу ко всем четырём сторонам.
+*/
+
+/*
+border-radius
+Устанавливает радиус скругления уголков блока.
+border-radius:50%; - кргуг
+Можно использовать вместе с overflow: hidden;
+*/
+
+/*
+box-shadow
+Добавляет тень к элементу.
+box-shadow: сдвиг_по_гориз сдвиг_по_верт радиус расстояние
+Флаг inset для установки внутренней тени
+Можно добавить много теней. На тень влияет свойство border-radius.
+filter: drop-shadow(0px 0px 10px #77608d);
+*/
+
+/*
+opacity
+Определяет уровень прозрачности элемента.
+Отличие opacity:0; от display:none; в том что блок 
+не убирается из верстки а только становиться прозрачным, 
+то есть занимаемое им место остается. Так же, 
+с прозрачными элементами все еще можно взаимодействовать, 
+например кликать по ссылкам.
+*/
+/*
+visibility
+Предназначен для отображения или скрытия элемента.
+Отличие visibility: hidden; от display:none; в том что блок 
+не убирается из верстки а только скрывается, 
+то есть занимаемое им место остается.
+Отличие visibility: hidden; от opacity:0;
+ в том что блок скрывается и взаимодействовать с ним нельзя.
+*/
+/*
+.text-link {
+	color: green;
+	border-bottom: 2px dotted;
+	display: inline-block;
+}
+.text-link:hover {
+	color: red;
+}
+*/
+/*
+.link {
+	display: inline-block;
+	background-color: #794f45;
+	display: inline-block;
+	color: #fff;
+	padding: 15px;
+	border: 5px solid red;
+}
+.link:hover {
+	border: 5px solid transparent;
+}
+*/
+
+/* 
+.block {
+	padding: 20px;
+	margin: 0px 0px 30px 0px;
+}
+.block__title {
+	font-weight: 700;
+	font-size: 30px;
+	margin: 0px 0px 20px 0px;
+}
+.block__body {
+}
+*/
+/*
+vertical-align - выравнивает строчные 
+и блочно-строчные объекты по вертикали
+top - по верху
+middle - по центру
+bottom - по низу
+*/
+
+/*
+Схлопывание внешнего отступа происходит 
+только с блочными объектами
+*/
+/*
+.block__texts {
+	font-size: 0;
+}
+
+.block__items {
+	font-size: 0;
+}
+.block__item {
+	display: inline-block;
+	max-width: 200px;
+	max-height: 200px;
+	overflow: hidden;
+	padding: 15px;
+	background-color: #794f45;
+	color: #fff;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+.span {
+	display: block;
+}
+.link {
+	margin: 0px 0px 20px 0px;
+	display: inline-block;
+}
+.text {
+	display: inline-block;
+	max-width: 100px;
+	background-color: #77608d;
+	padding: 10px;
+	font-size: 16px;
+	margin: 0px 30px 0px 0px;
+}
+
+.block__one,
+.block__two {
+	padding: 30px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.block__one {
+	background-color: #794f45;
+}
+.block__two {
+	background-color: #7a956b;
+	margin: -50px 0px 0px 0px;
+}
+
+.big-text {
+	max-height: 200px;
+	background-color: #77608d;
+	padding: 30px;
+	display: block;
+	font-size: 30px;
+	color: #fff;
+	line-height: 120%;
+	overflow: auto;
+}
+*/
