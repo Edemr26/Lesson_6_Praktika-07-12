@@ -71,18 +71,37 @@ body {
 	border: 1px solid black;
 	margin: 0 auto;
 }
+.content {
+	max-width: 1020px;
+	border: 3px solid black;
+}
+.supertitle {
+}
+.labeL {
+	max-width: 17px;
 
-.supertitle {}
+}
+.WhO {
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px; /* 200% */
+letter-spacing: 2.5px;
+text-transform: uppercase;
+}
 
-.labeL {}
-
-.WhO {}
-
-.nemo {}
-
-.text {}
-
-.img-text {}
+.nemo {
+	color: #02133C;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-size: 36px;
+font-style: normal;
+font-weight: 900;
+line-height: 42px; /* 116.667% */
+}
+.text {
+}
+.img-text {
+}
 
 /* 
 .main {
